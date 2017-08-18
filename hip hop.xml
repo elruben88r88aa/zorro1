@@ -63,4 +63,25 @@
 <thumbnail>http://mundokodi.com/wp-content/uploads/2016/02/pelis-magnet.png</thumbnail>
 </item>
   
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]peliculas-de-drama[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/02/pelis-magnet.png?x86522</fanart>
+<thumbnail>http://mundokodi.com/wp-content/uploads/2016/02/pelis-magnet.png?x86522</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/marcos20/peliculas-de-drama-en-espanol-latino-18845/list,1,3</page>
+<cookieJar></cookieJar>
+</regex> 
+  
 
