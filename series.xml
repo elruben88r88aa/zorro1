@@ -133,7 +133,7 @@
 
 
 <item>
-<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]JOKER[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] TEMPORADA 1[/COLOR]</title>
+<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]the-walking[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] TEMPORADA [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
