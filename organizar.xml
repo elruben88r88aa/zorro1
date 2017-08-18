@@ -41,13 +41,6 @@
 <thumbnail>http://ahorraenchollos.com/wp-content/uploads/2016/03/Los-hombres-de-Paco-portada.jpg</thumbnail>
 </item>
 
-#EXTINF:-1 tvg-id="Peliculas" tvg-logo="http://icon-icons.com/icons2/644/PNG/512/red_plasma-tv_icon-icons.com_59528.png",PelixMax 1 TV 
-https://www.facebook.com/PelixMax1/
-
-#EXTINF:-1 tvg-id="Peliculas" tvg-logo="http://centerlyne.com/wp-content/uploads/2016/07/logo-facebook.png",By (Pelix Max 1) 
-https://www.facebook.com/PelixMax1/
-
-
 #EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Cine Calidad (24/7)
 https://hls-ord-2a.vaughnsoft.net/nyc/live/live_cine_calidad/chunklist.m3u8?PelixMax1.m3u8
 
