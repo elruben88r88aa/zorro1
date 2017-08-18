@@ -69,7 +69,7 @@
 
 
 <item>
-<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]peliculas-de-drama[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] TEMPORADA 1[/COLOR]</title>
+<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]PELICULAS DRAMA[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
