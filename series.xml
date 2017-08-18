@@ -83,3 +83,46 @@
 <fanart>http://farm8.staticflickr.com/7313/10988933213_bb2eef5818_o.jpg</fanart>
 <thumbnail>http://farm8.staticflickr.com/7313/10988933213_bb2eef5818_o.jpg</thumbnail>
 </item>
+  
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+<item>
+<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]fear-the-walking-dead-espanol[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] TEMPORADA 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://is2.mzstatic.com/image/thumb/Features6/v4/2f/cb/a4/2fcba4d4-b579-076c-79ab-f1bbfab3d70b/mza_3269633317896382362.lsr/600x600bb-85.jpg</fanart>
+<thumbnail>http://is2.mzstatic.com/image/thumb/Features6/v4/2f/cb/a4/2fcba4d4-b579-076c-79ab-f1bbfab3d70b/mza_3269633317896382362.lsr/600x600bb-85.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chinchetas/fear-the-walking-dead-espanol-71104</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/chinchetas/fear-the-walking-dead-espanol-71104</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://is2.mzstatic.com/image/thumb/Features6/v4/2f/cb/a4/2fcba4d4-b579-076c-79ab-f1bbfab3d70b/mza_3269633317896382362.lsr/600x600bb-85.jpg</fanart>
+<thumbnail>http://is2.mzstatic.com/image/thumb/Features6/v4/2f/cb/a4/2fcba4d4-b579-076c-79ab-f1bbfab3d70b/mza_3269633317896382362.lsr/600x600bb-85.jpg</thumbnail>
+</item>
