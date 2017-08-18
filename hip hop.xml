@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>Pesca de Sargos.La Pesca sobre la Espuma </title>        
-<urlsolve>https://www.youtube.com/watch?v=xjKug_xBxVI</urlsolve>
-<thumbnail>http://www.tinglado.net/files/manuel/imagenes/Yodapng.png</thumbnail>
-<fanart>http://shop.rhodani.com/img/cms/tienda-bilbao-interior2.jpg</fanart>
-</item>
 
+
+
+<item>
+<title>[COLOR  yellow]* [/COLOR][COLOR yellow]THE[/COLOR][COLOR red]PELICULAS ESPAÑOL[/COLOR][COLOR  lime]* [/COLOR][COLOR  lime] TEMPORADA 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/02/pelis-magnet.png?x86522</fanart>
+<thumbnail>http://mundokodi.com/wp-content/uploads/2016/02/pelis-magnet.png?x86522</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chinchetas/peliculas-espanol-32573/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/chinchetas/peliculas-espanol-32573/list,1,15</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://ahorraenchollos.com/wp-content/uploads/2016/03/Los-hombres-de-Paco-portada.jpg</fanart>
+<thumbnail>http://ahorraenchollos.com/wp-content/uploads/2016/03/Los-hombres-de-Paco-portada.jpg</thumbnail>
+</item>
