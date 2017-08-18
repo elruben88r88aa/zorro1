@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>TV</title>        
-<urlsolve>https://pastebin.com/raw/NgUyukgM</urlsolve>
-<thumbnail>http://www.tinglado.net/files/manuel/imagenes/Yodapng.png</thumbnail>
-<fanart>http://shop.rhodani.com/img/cms/tienda-bilbao-interior2.jpg</fanart>
-</item>
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Peliculas" tvg-logo="http://icon-icons.com/icons2/644/PNG/512/red_plasma-tv_icon-icons.com_59528.png",PelixMax 1 TV 
+https://www.facebook.com/PelixMax1/
+
+#EXTINF:-1 tvg-id="Peliculas" tvg-logo="http://centerlyne.com/wp-content/uploads/2016/07/logo-facebook.png",By (Pelix Max 1) 
+https://www.facebook.com/PelixMax1/
+
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Cine Calidad (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_cine_calidad/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",KATY HD (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_katyhd/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",VITATO TV (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_vitatotv/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Anime (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_ajap07/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",BroadMovies (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_broadmovieshd/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Cine Star (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_cine_star/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Chespirito Mania (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_chespirito_mania/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Dragon Ball HD (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_dragonballhd/chunklist.m3u8?PelixMax1.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)", Morena Chanel(24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_morena_channels12/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Deportes (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_psn74v/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Series (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_vitatoseries/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Los Simpson (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_vitatosimpson7/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",X-Files(24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_xfiles/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",Zona Terror (24/7)
+https://hls-ord-2a.vaughnsoft.net/nyc/live/live_zonafilmsterror/chunklist.m3u8?PelixMax1.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-name="24/7 (Pelix Max 1)" tvg-logo="https://peliculas-247.com/wp-content/uploads/2017/08/05.png" group-title="(Pelix Max 1)",dragon ball z (24/7) 
+https://hls-ord-4a.vaughnsoft.net/ord/live/live_seriespelis/chunklist.m3u8?PelixMax1.m3u8
+
+#EXTINF:-1, tvg-name=Anime24/7 group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],Anime 24/7
+http://video7.stream.mx:1935/raxatv/raxatv/chunklist_w884577146.m3u8?monclovacaliente.m3u8
+ 
+#EXTINF:-1, tvg-name="VITATO MOVIES" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],VITATO MOVIES
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_vitatotv/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="KATY HD MOVIES" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],KATY HD MOVIES
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_katyhd/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="ZONA TERROR MOVIES" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],ZONA TERROR
+https://hls-ord-1a.vaughnsoft.net/ams/live/live_zonafilmsterror/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="BROAD MOVIES " group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],BROAD MOVIES
+https://hls-ord-1a.vaughnsoft.net/ord/live/live_broadmovieshd/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="CINE STAR " group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],CINE STAR
+https://hls-ord-4a.vaughnsoft.net/nyc/live/live_cine_star/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="PELICULAS 300 Y MAS  " group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],PELICULAS 300 Y MAS
+https://hls-ord-4a.vaughnsoft.net/nyc/live/live_300/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="CINE CALIDAD" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],CINE CALIDAD
+https://hls-ord-4a.vaughnsoft.net/nyc/live/live_cine_calidad/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="OCHIN" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],OCHIN
+https://hls-ord-2a.vaughnsoft.net/ord/live/live_ochin1a/chunklist.m3u8
+ 
+#EXTINF:-1, tvg-name="MORENA" group-title="Cine 24/7",[COLOR orange][B][I]CINE 24/7[/COLOR][/B][/I],MORENA
+https://hls-ord-2a.vaughnsoft.net/ams/live/live_morena_channels12/chunklist.m3u8
 
